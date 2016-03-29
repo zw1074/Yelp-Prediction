@@ -34,6 +34,6 @@ We finally combine the above features and the past rating. We use this as X inpu
 ## Result
 We use [micro-auc](http://scikit-learn.org/stable/modules/generated/sklearn.metrics.roc_auc_score.html#sklearn.metrics.roc_auc_score) as the evaluation for this method. The picture is as following.
 
-![alt text](https://raw.githubusercontent.com/zw1074/Yelp-Prediction/master/figures/micro-average%20ROC%20curve%20of%20different%20word%20model%20when%20using%20Perceptron.png)
+![alt text](https://raw.githubusercontent.com/zw1074/Yelp-Prediction/master/figures/micro-average%20ROC%20curve%20of%20different%20word%20model%20when%20using%20DecisionTreeClassifier.png)
 ![alt text](https://raw.githubusercontent.com/zw1074/Yelp-Prediction/master/figures/micro-average%20ROC%20curve%20of%20different%20word%20model%20when%20using%20LogisticRegression.png)
 ![alt text](https://raw.githubusercontent.com/zw1074/Yelp-Prediction/master/figures/micro-average%20ROC%20curve%20of%20different%20word%20model%20when%20using%20Perceptron.png)
