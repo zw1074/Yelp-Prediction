@@ -24,7 +24,7 @@ To deal with the review part, we used different methods.
 
 1. [Tf-idf](https://en.wikipedia.org/wiki/Tf%E2%80%93idf)
 2. [word2vec](https://radimrehurek.com/gensim/models/word2vec.html) without tagging.
-3. word2vec with [tagging](http://www.nltk.org/book/ch05.html)
+3. word2vec with [tagging](http://www.nltk.org/book/ch05.html).
 
 On the tagging part, we mainly focus on the adjective words which we think that it can represent the sentiment of the review.
 
@@ -32,4 +32,8 @@ On the tagging part, we mainly focus on the adjective words which we think that 
 We finally combine the above features and the past rating. We use this as X input and apply different methods `['LogisticRegression', 'DecisionTreeClassifier', 'Perceptron', 'knn']`.
 
 ## Result
-We use [micro-auc](http://scikit-learn.org/stable/modules/generated/sklearn.metrics.roc_auc_score.html#sklearn.metrics.roc_auc_score) as the evaluation for this method.
+We use [micro-auc](http://scikit-learn.org/stable/modules/generated/sklearn.metrics.roc_auc_score.html#sklearn.metrics.roc_auc_score) as the evaluation for this method. The picture is as following.
+
+![alt text](https://raw.githubusercontent.com/zw1074/Yelp-Prediction/edit/master/figures/micro-average ROC curve of different word model when using DecisionTreeClassifier.png)
+![alt text](https://raw.githubusercontent.com/zw1074/Yelp-Prediction/edit/master/figures/micro-average ROC curve of different word model when using LogisticRegression.png)
+![alt text](https://raw.githubusercontent.com/zw1074/Yelp-Prediction/edit/master/figures/micro-average ROC curve of different word model when using Perceptron.png)
