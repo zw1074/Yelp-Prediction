@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Yelp-Prediction
 
 This is a data challenge on Yelp.com. You can find the detail [here](https://www.yelp.com/dataset_challenge). The challenge does not give out a specific target for challenger, so what you need to do totally depends on yourself.
@@ -34,7 +33,3 @@ We finally combine the above features and the past rating. We use this as X inpu
 
 ## Result
 We use [micro-auc](http://scikit-learn.org/stable/modules/generated/sklearn.metrics.roc_auc_score.html#sklearn.metrics.roc_auc_score) as the evaluation for this method.
-
-=======
-# Yelp-Prediction
->>>>>>> 6d3fb63959924ae73d63038b70d60c767454a6a0
