@@ -1,10 +1,15 @@
 # Yelp-Prediction
 
-This is a data challenge on Yelp.com. You can find the detail [here](https://www.yelp.com/dataset_challenge). The challenge does not give out a specific target for challenger, so what you need to do totally depends on yourself.
+Data: [`yelp_academic_dataset_business.json`](https://drive.google.com/file/d/0BzIp01PoYYptaGhsTktpV3d5S3c/view?usp=sharing), [`yelp_academic_dataset_review.json`](https://drive.google.com/file/d/0BzIp01PoYYptZmxHbnJrUVNIc0U/view?usp=sharing).
+
+Platform: Python 2.7
+
+Requirenment: [Anaconda2](https://www.continuum.io/downloads), [gensim](https://radimrehurek.com/gensim/)
 
 ## Abstract
+This is a data challenge on Yelp.com. You can find the detail [here](https://www.yelp.com/dataset_challenge). The challenge does not give out a specific target for challenger, so what you need to do totally depends on yourself.
 
-In this solution, we aim to predict the future rating of each restaurant in Phoenix. The reason we focus on Phoenix is because most data is located in Phoenix. And we divide the rating as three class with nearly equal amount based on their distribution. We mainly focus on two data file. One is [`yelp_academic_dataset_business.json`](https://drive.google.com/file/d/0BzIp01PoYYptaGhsTktpV3d5S3c/view?usp=sharing) and the other one is [`yelp_academic_dataset_review.json`](https://drive.google.com/file/d/0BzIp01PoYYptZmxHbnJrUVNIc0U/view?usp=sharing). Now, I would like to present some of the method we use in our solutions. 
+In this solution, we aim to predict the future rating of each restaurant in Phoenix. The reason we focus on Phoenix is because most data is located in Phoenix. And we divide the rating as three class with nearly equal amount based on their distribution. Now, I would like to present some of the method we use in our solutions. 
 
 ## Preprocessing (business part)
 
